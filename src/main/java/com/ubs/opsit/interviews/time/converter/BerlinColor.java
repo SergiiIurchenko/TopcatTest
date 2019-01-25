@@ -1,4 +1,4 @@
-package com.ubs.opsit.interviews.units.extractors;
+package com.ubs.opsit.interviews.time.converter;
 
 class BerlinColor {
     static final String Y = "Y";

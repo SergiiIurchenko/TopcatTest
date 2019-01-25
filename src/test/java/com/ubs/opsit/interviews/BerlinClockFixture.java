@@ -1,5 +1,7 @@
 package com.ubs.opsit.interviews;
 
+import com.ubs.opsit.interviews.time.converter.TimeConverter;
+import com.ubs.opsit.interviews.time.converter.TimeConverterFactory;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.junit.Test;

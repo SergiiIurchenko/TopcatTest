@@ -1,4 +1,4 @@
-package com.ubs.opsit.interviews;
+package com.ubs.opsit.interviews.time.converter;
 
 /**
  * api for time conversion from one format to another
@@ -6,5 +6,4 @@ package com.ubs.opsit.interviews;
 public interface TimeConverter {
 
     String convertTime(String aTime);
-
 }

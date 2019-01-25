@@ -1,4 +1,4 @@
-package com.ubs.opsit.interviews.units.extractors;
+package com.ubs.opsit.interviews.time.converter;
 
 class LampsRowTestHelper {
 
@@ -11,11 +11,10 @@ class LampsRowTestHelper {
     }
 
     static String getFullyLightedMinutesTopRow() {
-        return new StringBuilder().append(getMinutesLightedSection()).append(getMinutesLightedSection()).append(getMinutesLightedSection())
-                .append(BerlinColor.Y).append(BerlinColor.Y).toString();
+        return getMinutesLightedSection() + getMinutesLightedSection() + getMinutesLightedSection() + BerlinColor.Y + BerlinColor.Y;
     }
 
     static String getMinutesLightedSection() {
-        return new StringBuilder().append(BerlinColor.Y).append(BerlinColor.Y).append(BerlinColor.R).toString();
+        return BerlinColor.Y + BerlinColor.Y + BerlinColor.R;
     }
 }

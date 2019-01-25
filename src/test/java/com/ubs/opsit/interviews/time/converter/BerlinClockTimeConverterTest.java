@@ -1,4 +1,4 @@
-package com.ubs.opsit.interviews;
+package com.ubs.opsit.interviews.time.converter;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
